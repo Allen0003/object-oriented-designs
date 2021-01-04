@@ -1,0 +1,2 @@
+
+The publisher-subscriber pattern can be considered as an improvized (asynchronous and loosely-coupled) version of the observer pattern. In the pub-sub pattern, senders of messages (called publishers) do not send messages directly to specific receivers (called subscribers). There is an intermediate component, called broker, (or message broker, event bus), to which data is sent by publisher and from where data is received by subscribers. It filters all incoming messages and distributes them accordingly.
